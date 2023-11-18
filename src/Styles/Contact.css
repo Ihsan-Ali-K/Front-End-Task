@@ -1,0 +1,70 @@
+.contactMe .cForm{
+   margin-top: 100px;
+}
+.contactMe h5{
+   margin-top: 100px;
+   color:#64f4ab;
+}
+.contactMe p{
+   color: #ecf2fd;
+   font-size: 18px;
+   font-weight: 300;
+   line-height: 26px;
+}
+.contactMe .email{
+   margin-left: 100px;
+}
+.contactMe .phone .phoneIcon{
+   width: 80px;
+   height: 80px;
+   border-color: #64f4ab;
+ 
+   background-color: #1a1a1a;
+   border-radius: 50%;
+}
+.contactMe .phone .phoneIcon:hover{
+   transition: 0.3s;
+   background-color: #ffaf29;
+}
+.contactMe .email .envelope{
+   width: 80px;
+   height: 80px;
+ 
+   background-color: #1a1a1a;
+   border-radius: 50%;
+}
+.contactMe .email .envelope:hover{
+   transition: 0.3s;
+   background-color: #ffaf29;
+}
+
+.contactMe .cForm input{
+   font-weight: bold;
+   
+   height: 60px;
+   width: 300px;
+   background-color: #1a1a1a;
+   border: 0.5px solid #64f4ab;
+   border-radius: 25px;
+}
+.contactMe .cForm input:active,
+.contactMe .cForm input:focus{
+    box-shadow: none;
+    outline: none;
+    
+    
+  }
+  .contactMe textarea{
+   background-color: #1a1a1a;
+   border: 0.5px solid #64f4ab;
+   border-radius: 25px;
+
+
+  }
+  .contactMe  textarea:active,
+.contactMe  textarea:focus{
+   box-shadow: none;
+    outline: none;
+    background-color: #1a1a1a;
+}
+  

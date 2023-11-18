@@ -1,0 +1,19 @@
+.backToTop .button {
+    border-radius: 50%;
+    border: none;
+    align-items: center;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+    right: 50px;
+    bottom: 50px;
+}
+
+.backToTop .button:active,
+.backToTop .button:focus {
+
+    outline: none;
+    border: none;
+
+}

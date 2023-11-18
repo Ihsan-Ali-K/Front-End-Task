@@ -1,0 +1,155 @@
+
+header {
+    
+    padding: 1.3rem 3%;
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100px;
+    background-color: rgb(37, 37, 37);
+
+}
+nav{
+    display: flex;
+
+    position: relative;
+}
+nav a{
+    position: relative;
+    margin: 0 1rem;
+    letter-spacing: 0.5px;
+   
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    padding: 0 10px;
+    
+
+}
+
+nav a:after{
+    content: "";
+    position: absolute;
+    height: 3px;
+    width: 0;
+    background-color: white;
+    left: 0;
+    bottom: -5px;
+    transition: 0.2s;
+
+}
+nav a:hover{
+    color: white;
+    text-decoration: none;
+}
+nav a:hover:after{
+    width: 100%;
+  
+    
+}
+header .active{
+    color: white;
+    font-weight: bold;
+   
+    border-bottom: 3px solid white; 
+    
+   
+}
+
+
+header .nav-btn {
+    padding: 5px;
+    cursor: pointer;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: white;
+    display: none;
+    opacity: 0;
+}
+
+
+.socialNavIcon {
+    margin-left: 100px;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+    border-radius: 10%;
+    justify-content: center;
+    align-items: center;
+    color: #ffaf29;
+    background-color: rgb(68, 68, 68);
+    box-shadow: 3px 3px 9px rgb(24, 24, 24);
+   
+}
+
+.socialNavIcon:hover {
+    transition: 0.3s;
+    background-color: #ffaf29;
+    color: black;
+}
+
+
+@media only screen and (max-width:1024px) {
+    header .nav-btn {
+       display: block;
+        opacity: 1;
+
+
+    }
+    header{
+        width: 100%;
+    }
+
+    header nav {
+
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1.5rem;
+        background-color: black;
+        transition: 1s;
+        transform: translateY(-100vh);
+        z-index: 100;
+    }
+
+    header .responsive_nav {
+        transform: none;
+
+    }
+
+    nav .nav-close-btn {
+        position: absolute;
+        justify-content: center;
+        top: 2rem;
+    }
+
+    nav a {
+        font-size: 1.5rem;
+    }
+
+    nav a:hover {
+        font-weight: bold;
+        text-decoration: none;
+        text-shadow: 0 0 3px #fcfcfb;
+        color: white;
+    }
+
+    .socialNavIcon {
+        visibility: hidden;
+        display: none;
+    }
+
+    header .navButton {
+        display: none;
+    }
+
+}

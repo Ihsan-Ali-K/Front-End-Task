@@ -1,0 +1,52 @@
+.stats{
+    margin-top: 150px;
+}
+.statCircle{
+    
+    width: 150px;
+    height: 150px;
+    border: 30px solid #f4ef64;
+    border-radius: 50%;
+   
+    margin-bottom: -5%;
+    overflow: hidden;
+    
+}
+.stats .card{
+    background-color: #2d2e32;
+    height: 280px;
+    text-align: center;
+
+    border-style: solid;
+    border-width: 0 6px 0 0;
+    border-color: #0c0c0c;
+    
+    
+}
+.stats h1{
+    color: #64f4ab;
+}
+.stats .roundedCard {
+    border-top-left-radius: 50px; /* You can adjust the border-radius value as needed */
+    border-bottom-left-radius:50px;
+}
+.stats .roundedCardLast {
+    border-top-right-radius: 50px; /* You can adjust the border-radius value as needed */
+    border-bottom-right-radius: 50px;
+}
+.statCircle2{
+    
+    width: 100px;
+    height: 100px;
+    border: 70px solid #ffaf29;
+    border-radius: 50%;
+   
+    margin-top: -8%;
+    overflow: hidden;
+    
+}
+.statCards h1{
+    font-size: 70px;
+    font-weight: 600;
+    
+}

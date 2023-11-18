@@ -1,0 +1,44 @@
+
+
+.testimonials .pImage img{
+    height: 400px;
+    border-radius: 7%;
+}
+.testimonials .qImage #quotes{
+    height: 100px;
+    width: 100px;
+    color: #64f4ab;
+}
+.testimonials p{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    color: var(--e-global-color-021e33e);
+    margin: 0;
+    padding: 0 0 35px;
+    border-radius: 0;
+    max-width: 686px;
+}
+.testimonials h3{
+    color: #64f4ab;
+}
+.testimonials .pImage{
+    transform: rotate(10deg);
+}
+.carousel-indicators{
+    left: 0;
+    top: auto;
+    bottom: -70px;
+}
+.carousel-indicators button{
+    background-color: black;
+    border: none;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.carousel-indicators .active{
+    outline-style: none;
+    border: 5px solid #f4ef64;
+    background-color: black;
+}

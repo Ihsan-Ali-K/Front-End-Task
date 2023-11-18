@@ -1,0 +1,17 @@
+.continer-fluid{
+    padding: 1.3rem 3%;
+}
+.project1 h5{
+    margin-top: 100px;
+    color:#64f4ab;
+}
+.project1 p{
+    color: #ecf2fd;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.project1 img{
+    border-radius: 8%;
+    transform: rotate(-9deg);
+}

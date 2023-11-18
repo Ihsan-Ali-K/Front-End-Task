@@ -1,0 +1,51 @@
+.container-fluid{
+    padding: 1.3rem 3%;
+    position: relative;
+    
+    background-color: rgb(37, 37, 37);
+    height: auto;
+}
+.container-fluid .container{
+    position: relative;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    max-width: 1200px;
+    flex-wrap: wrap;
+    z-index: 1;
+}
+.container .card{
+    position: relative;
+    width: 250px;
+    height: 300px;
+    margin: 30px;
+    box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+    border-radius: 20px;
+    background: rgba(255,255,255,0.1);
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+}
+.container .card:hover{
+   background-color: #00d084;
+   box-shadow: 5px 5px 20px #00d084;
+  }
+.container .card .content{
+    padding: 20px;
+    text-align: center;
+    transition: 0.5s;
+}
+.myskills h4{
+    margin-top: 100px;
+    color:#64f4ab;
+}
+.myskills p{
+    color: #ecf2fd;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+}
+.card i{
+    color: #64f4ab;
+    border-radius: 10px;
+}
