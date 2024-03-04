@@ -23,7 +23,7 @@ const BackToTopButton = () => {
         <div className='backToTop '>
             {backToTopButton && (
                 <button className='button d-flex justify-content-center' onClick={scrollUp}>
-                    <i class="fa-solid fa-arrow-up fa-2xs"></i>
+                    <i className="fa-solid fa-arrow-up fa-2xs"></i>
                 </button>
             )}
         </div>

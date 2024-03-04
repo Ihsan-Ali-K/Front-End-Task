@@ -7,7 +7,9 @@ header {
     align-items: center;
     justify-content: space-between;
     height: 100px;
+    
     background-color: rgb(37, 37, 37);
+    position: relative;
 
 }
 nav{
@@ -50,10 +52,11 @@ nav a:hover:after{
     
 }
 header .active{
+     
     color: white;
     font-weight: bold;
-   
-    border-bottom: 3px solid white; 
+  
+    border-bottom: 3.5px solid white; 
     
    
 }
@@ -117,7 +120,7 @@ header .nav-btn {
         gap: 1.5rem;
         background-color: black;
         transition: 1s;
-        transform: translateY(-100vh);
+        transform: translateY(-110vh);
         z-index: 100;
     }
 

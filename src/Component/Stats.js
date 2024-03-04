@@ -21,39 +21,39 @@ const Stats = () => {
             </div>
                 <div className='row statCards'>
 
-                    <div class="card col-md-3 roundedCard">
+                    <div className="card col-md-3 roundedCard">
 
-                        <div class="card-body d-flex flex-col  align-items-center justify-content-center" >
+                        <div className="card-body d-flex flex-col  align-items-center justify-content-center" >
                             <div  data-aos="fade-up">
                                 <h1>{counterOn && <CountUp start={0} end={98} duration={3} delay={0} />}  </h1>
-                                <h5 class="card-title">Happy clients</h5>
+                                <h5 className="card-title">Happy clients</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="card col-md-3">
+                    <div className="card col-md-3">
 
-                        <div class="card-body d-flex flex-col  align-items-center justify-content-center" >
+                        <div className="card-body d-flex flex-col  align-items-center justify-content-center" >
                             <div  data-aos="fade-up">
                             <h1>{counterOn && <CountUp start={0} end={38} duration={3} delay={0} />}  </h1>
-                                <h5 class="card-title">Project done</h5>
+                                <h5 className="card-title">Project done</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="card col-md-3">
+                    <div className="card col-md-3">
 
-                        <div class="card-body d-flex flex-col  align-items-center justify-content-center" >
+                        <div className="card-body d-flex flex-col  align-items-center justify-content-center" >
                             <div data-aos="fade-up">
                             <h1>{counterOn && <CountUp start={0} end={48} duration={3} delay={0} />}  </h1>
-                                <h5 class="card-title">Award Wining</h5>
+                                <h5 className="card-title">Award Wining</h5>
                             </div>
                         </div>
                     </div>
-                    <div class="card col-md-3 roundedCardLast">
+                    <div className="card col-md-3 roundedCardLast">
 
-                        <div class="card-body d-flex flex-col  align-items-center justify-content-center" >
+                        <div className="card-body d-flex flex-col  align-items-center justify-content-center" >
                             <div data-aos="fade-up">
                             <h1>{counterOn && <CountUp start={0} end={12} duration={3} delay={0} />}  </h1>
-                                <h5 class="card-title">Year Experience</h5>
+                                <h5 className="card-title">Year Experience</h5>
                             </div>
                         </div>
                     </div>

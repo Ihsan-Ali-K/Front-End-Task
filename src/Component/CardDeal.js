@@ -2,6 +2,7 @@ import React from 'react'
 import "../Styles/CardDeal.css"
 const CardDeal = () => {
     return (
+        
         <div className='container-fluid mt-0'>
             <div className='cardDeal mt-5'>
             <div className='d-flex justify-content-start '>
@@ -10,7 +11,7 @@ const CardDeal = () => {
                 </div>
             </div>
             <div className=' d-flex justify-content-center '>
-            <div class=" horizontal-line"></div>
+            <div className=" horizontal-line"></div>
             </div>
             <div className='mt-3 d-flex justify-content-center  '>
             
@@ -33,6 +34,7 @@ const CardDeal = () => {
             </div>
             
         </div>
+       
     )
 }
 

@@ -13,48 +13,47 @@ const Nav = () => {
     navRef.current.classList.toggle("responsive_nav")
   }
   let location = useLocation();
-  useEffect (() =>{
+  useEffect(() => {
     console.log(location)
-  },[location])
+  }, [location])
   return (
+
     
-    <div >
       <header>
         <h3><img src={logo} /></h3>
-        <nav   ref={navRef}>
-          <Link className={` ${location.pathname==="/"? "active":""}`} to='/' >Home</Link>
-          <Link className={` ${location.pathname==="/portfolio"? "active":""}`} to='/portfolio' >Portfolio</Link>
-          <Link className={` ${location.pathname==="/contact"? "active":""}`} to='/contact' >Contact</Link>
+        <nav ref={navRef}>
+          <Link className={` ${location.pathname === "/" ? "active" : ""}`} to='/' >Home</Link>
+          <Link className={` ${location.pathname === "/portfolio" ? "active" : ""}`} to='/portfolio' >Portfolio</Link>
+          <Link className={` ${location.pathname === "/contact" ? "active" : ""}`} to='/contact' >Contact</Link>
           <button className='nav-btn nav-close-btn' onClick={showNavbar} >
             <img src={cross} />
 
           </button>
         </nav>
         <div className='d-flex justify-content-end header1' data-aos="fade-left">
-        <div className='socialNavIcon d-flex justify-content-center mr-5'>
-          <i class="fa-regular fa-address-card 3x"></i>
+          <div className='socialNavIcon d-flex justify-content-center mr-5'>
+            <i className="fa-regular fa-address-card 3x"></i>
 
+          </div>
+          <div>
+            <button className='navButton'>Contact Us</button>
+          </div>
         </div>
-        <div>
-          <button className='navButton'>Contact Us</button>
-        </div>
-        </div>
-        
-        
+
+
 
         <button className='nav-btn ' onClick={showNavbar}>
           <img src={bars} />
-
         </button>
-        
-       
-      </header>
-      
-      
-        
 
-      
-    </div>
+
+      </header>
+
+
+
+
+
+   
   )
 }
 

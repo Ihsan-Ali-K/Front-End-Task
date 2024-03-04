@@ -22,7 +22,7 @@ const Contact = () => {
                             <div>
                                 <div className='row phone' data-aos="fade-left">
                                     <div className='phoneIcon  d-flex justify-content-center align-items-center mx-3'>
-                                    <i class="fa-solid fa-phone-volume fa-2x"></i>
+                                    <i className="fa-solid fa-phone-volume fa-2x"></i>
                                     </div>
                                     <div>
                                     <h4>Phone</h4>
@@ -33,7 +33,7 @@ const Contact = () => {
                                 </div>
                                 <div className='row email'  data-aos="fade-left">
                                     <div className='envelope d-flex justify-content-center align-items-center mx-3'>
-                                        <i class="fa-regular fa-envelope fa-2x"></i>
+                                        <i className="fa-regular fa-envelope fa-2x"></i>
                                     </div>
                                     <div>
                                         <h4 >Email</h4>
@@ -47,18 +47,18 @@ const Contact = () => {
                     </div>
                     <div className="col-md-6 mt-5">
                         <div className='row cForm' data-aos="fade-up">
-                            <div class="mb-3 mx-3">
+                            <div className="mb-3 mx-3">
 
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Full Name" />
+                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Full Name" />
                             </div>
-                            <div class="mb-3">
+                            <div className="mb-3">
 
-                                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Email" />
+                                <input type="email" className="form-control" id="exampleFormControlInput1" placeholder="Email" />
                             </div>
                         </div>
-                        <div class="mb-3 mt-5" data-aos="fade-up">
+                        <div className="mb-3 mt-5" data-aos="fade-up">
 
-                            <textarea class="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Your Message*"></textarea>
+                            <textarea className="form-control" id="exampleFormControlTextarea1" rows="10" placeholder="Your Message*"></textarea>
                         </div>
 
                     </div>

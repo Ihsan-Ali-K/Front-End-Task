@@ -6,7 +6,7 @@ import p2Image from './images/portfolio-2-img.jpg'
 const Project2 = () => {
     return (
         <div className="container-fluid mt-0">
-            <div className='d-flex justify-content-end p2Couter'>
+            <div className='d-flex justify-content-end  p2Couter '>
             <div className='p2circle' data-aos="fade-left">
               
             </div>

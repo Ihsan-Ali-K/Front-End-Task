@@ -17,19 +17,19 @@ const Footer = () => {
                 <div className='col-md-4  d-flex justify-content-center'>
                     <div className='row socialIcons'>
                       <div className='socialIcon d-flex justify-content-center mr-4'>
-                      <i class="fa-brands fa-facebook"></i>
+                      <i className="fa-brands fa-facebook"></i>
                       
                       </div>
                       <div className='socialIcon d-flex justify-content-center mr-4'>
-                      <i class="fa-brands fa-twitter"></i>
+                      <i className="fa-brands fa-twitter"></i>
                       
                       </div>
                       <div className='socialIcon d-flex justify-content-center mr-4'>
-                      <i class="fa-brands fa-linkedin"></i>
+                      <i className="fa-brands fa-linkedin"></i>
                       
                       </div>
                       <div className='socialIcon d-flex justify-content-center mr-4'>
-                      <i class="fa-brands fa-github"></i>
+                      <i className="fa-brands fa-github"></i>
                       
                       </div>
                       </div>
